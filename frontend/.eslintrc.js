@@ -4,12 +4,24 @@ module.exports = {
       'react-app',
       'plugin:react/recommended',
       'plugin:@typescript-eslint/recommended',
-      'prettier',
+      'plugin:prettier/recommended',
     ],
     plugins: ['react', '@typescript-eslint', 'prettier'],
     rules: {
-      // Add custom rules if needed
       'prettier/prettier': 'error',
+      // Other custom rules...
+    },
+  };
+  amodule.exports = {
+    // ... existing configuration
+    extends: [
+      'react-app',
+      'plugin:prettier/recommended',
+    ],
+    plugins: ['prettier'],
+    rules: {
+      'prettier/prettier': 'error',
+      // ... other rules
     },
   };
   
