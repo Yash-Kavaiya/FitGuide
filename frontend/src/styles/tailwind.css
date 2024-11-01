@@ -1,5 +1,3 @@
-/* src/styles/tailwind.css */
-
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 
 @tailwind base;
@@ -36,35 +34,35 @@
 
 @layer utilities {
   .text-secondaryGreen {
-    @apply text-secondaryGreen;
+    color: #34a853; /* Define color directly */
   }
 
   .bg-lightYellow {
-    @apply bg-lightYellow;
+    background-color: #fbbc04; /* Define background color directly */
   }
 
   .text-grayText {
-    @apply text-grayText;
+    color: #6b7280; /* Define text-grayText color directly */
   }
 
   .bg-primaryGreen {
-    @apply bg-primaryGreen;
+    background-color: #34a853; /* Define primary green color */
   }
 
   .bg-secondaryGreen {
-    @apply bg-secondaryGreen;
+    background-color: #228b22; /* Define secondary green color */
   }
 
   .bg-accentYellow {
-    @apply bg-accentYellow;
+    background-color: #ffd60a; /* Define accent yellow color */
   }
 
   .text-lightYellow {
-    @apply text-lightYellow;
+    color: #f1c40f; /* Define light yellow color */
   }
 
   .text-gray-800 {
-    @apply text-gray-800;
+    color: #333333; /* Define gray-800 color */
   }
 
   /* Custom styles to beautify the UI */
