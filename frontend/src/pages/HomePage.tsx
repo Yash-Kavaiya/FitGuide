@@ -1,5 +1,3 @@
-// src/pages/HomePage.tsx
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaDumbbell, FaUtensils, FaBrain } from 'react-icons/fa'; // Importing icons

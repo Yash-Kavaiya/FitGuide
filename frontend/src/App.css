@@ -14,18 +14,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1a202c; /* Darker background color */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f7fafc; /* Lighter text color */
+  padding: 20px; /* Add padding */
+  border-radius: 10px; /* Add border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #63b3ed; /* Change link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make link bold */
+}
+
+.App-link:hover {
+  color: #4299e1; /* Change link color on hover */
 }
 
 @keyframes App-logo-spin {

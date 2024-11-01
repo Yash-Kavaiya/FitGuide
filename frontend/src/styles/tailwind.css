@@ -11,3 +11,43 @@
     @apply font-nunito text-gray-800;
   }
 }
+
+@layer components {
+  .btn-primary {
+    @apply bg-primaryGreen text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-secondaryGreen transition duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-secondaryGreen text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-primaryGreen transition duration-300;
+  }
+
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300;
+  }
+
+  .card-title {
+    @apply text-xl font-semibold mb-2 text-secondaryGreen;
+  }
+
+  .card-text {
+    @apply text-grayText;
+  }
+}
+
+@layer utilities {
+  .text-primaryGreen {
+    @apply text-primaryGreen;
+  }
+
+  .text-secondaryGreen {
+    @apply text-secondaryGreen;
+  }
+
+  .bg-lightYellow {
+    @apply bg-lightYellow;
+  }
+
+  .text-grayText {
+    @apply text-grayText;
+  }
+}
