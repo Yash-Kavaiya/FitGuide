@@ -35,10 +35,6 @@
 }
 
 @layer utilities {
-  .text-primaryGreen {
-    @apply text-primaryGreen;
-  }
-
   .text-secondaryGreen {
     @apply text-secondaryGreen;
   }
@@ -49,5 +45,50 @@
 
   .text-grayText {
     @apply text-grayText;
+  }
+
+  .bg-primaryGreen {
+    @apply bg-primaryGreen;
+  }
+
+  .bg-secondaryGreen {
+    @apply bg-secondaryGreen;
+  }
+
+  .bg-accentYellow {
+    @apply bg-accentYellow;
+  }
+
+  .text-lightYellow {
+    @apply text-lightYellow;
+  }
+
+  .text-gray-800 {
+    @apply text-gray-800;
+  }
+
+  /* Custom styles to beautify the UI */
+  .text-primaryGreen {
+    color: #2ecc71;
+  }
+
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .rounded-full {
+    border-radius: 9999px;
+  }
+
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .transition {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hover\:bg-yellow-500:hover {
+    background-color: #f1c40f;
   }
 }
